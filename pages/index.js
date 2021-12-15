@@ -26,18 +26,21 @@ export default function Home() {
             <a
               href="https://www.facebook.com/siamahnaf198/"
               target="_blank"
+              rel="noreferrer"
             >
               <Icon icon="fe:facebook" />
             </a>
             <a
               href="https://twitter.com/siamahnaf198/"
               target="_blank"
+              rel="noreferrer"
             >
               <Icon icon="brandico:twitter-bird" />
             </a>
             <a
               href="https://www.linkedin.com/in/siamahnaf198/"
               target="_blank"
+              rel="noreferrer"
             >
               <Icon icon="akar-icons:linkedin-fill" />
             </a>
