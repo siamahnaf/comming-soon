@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import { Icon } from "@iconify/react";
+import Timer from '../Components/timer';
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
           Welcome to <span>Siam Ahnaf</span>
         </h1>
         <p className={styles.description}>
-          I am comming soon
+          I am comming soon in
         </p>
-        <div>
+        <Timer />
+        <div style={{ marginTop: "50px" }}>
           <p className={styles.description}>
             Follow me on
           </p>

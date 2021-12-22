@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+.App > div {
+  margin: 0 15px;
+}
+.time {
+  font-size: 32px;
+}
